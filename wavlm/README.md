@@ -25,7 +25,7 @@ This repository implements a lightweight yet powerful ASR pipeline that transcri
 - Dynamically pads audio for batching
 
 ### 2. **Feature Extraction**
-- Uses pre-trained [`WAVLM_BASE`](https://huggingface.co/microsoft/wavlm-base) model from `torchaudio`
+- Uses pre-trained [`WAVLM_BASE`](https://docs.pytorch.org/audio/master/generated/torchaudio.pipelines.WAVLM_BASE.html) model from `torchaudio`
 - Outputs 768-dimensional embeddings per timestep
 
 ### 3. **Sequence Modeling**
